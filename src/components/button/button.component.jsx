@@ -9,11 +9,10 @@ const Button = ({ children, buttonType, ...otherProps }) => {
   return (
     <button
       className={`button-container ${BUTTON_TYPE_CLASSES[buttonType]}`}
-      {...otherProps}
-    >
+      {...otherProps}>
       {children}
     </button>
   );
 };
-
+// heyy
 export default Button;
